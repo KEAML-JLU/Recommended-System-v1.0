@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding: 0px;
+	margin: 0px auto;
+}
+
+body {
+	padding: 0px;
+	margin: 0px auto;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+
+ul,li,ol,dl,dt,dd,div,p,span,h1,h2,h3,h4,h5,h6,a {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul,li,ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* login */
+
+.login {
+	width: 500px;
+	position: fixed;
+	border: #ebebeb solid 1px;
+	top: 50%;
+	left: 50%;
+	background: #ffffff;
+	box-shadow: 0px 0px 20px #ddd;
+	z-index: 9999;
+	margin-left: -250px;
+	margin-top: -140px;
+	padding-bottom: 10px;
+}
+
+.login-title {
+	width: 100%;
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	font-size: 18px;
+	position: relative;
+}
+
+.login-input-content {
+	margin-top: 20px;
+}
+
+.login-input {
+	overflow: hidden;
+	margin: 0px 0px 20px 0px;
+}
+
+.login-input label {
+	float: left;
+	width: 90px;
+	padding-right: 10px;
+	text-align: right;
+	line-height: 35px;
+	height: 35px;
+	font-size: 14px;
+}
+
+.login-input input.list-input {
+	float: left;
+	line-height: 35px;
+	height: 35px;
+	width: 350px;
+	border: #ebebeb 1px solid;
+	text-indent: 5px;
+}
+
+.login-button {
+	width: 50%;
+	margin: 30px auto 10px auto;
+	line-height: 40px;
+	font-size: 14px;
+	border: #ebebeb 1px solid;
+	text-align: center;
+}
+
+.login-button a {
+	display: block;
+}
+
+.login-link{
+	text-align: right;
+	padding-right: 10px;
+}
+.login-link a {
+	text-decoration: underline;
+}
+
+
+
+
+.login-bg {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #ebebeb;
+	filter: alpha(opacity = 30);
+	-moz-opacity: 0.3;
+	-khtml-opacity: 0.3;
+	opacity: 0.3;
+}

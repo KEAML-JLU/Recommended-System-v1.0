@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="baidu-tc-verification" content="560827e31a31c4043af17ba858a02227" />
+<title>Content-based Journals and Conferences Recommender System</title>
+<link href="css/index.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+
+<!-- 导航区 -->
+<div id="navi" class="menu">
+	
+	<ul id="function">
+			<li><a href="http://www.keaml.cn/BMKnowledge/">Back</a>
+			</li>
+		<li class="nav1" id="login"><a href="javascript:;">Login</a></li>
+		<li class="nav2" id="register"><a href="javascript:;">Register</a></li>
+	</ul>
+
+	<ul id="logged" style="display:none;">
+		<li class="nav3" id="user-name">Username</li>
+		<li class="nav4" id="logout"><a href="javascript:;">Logout</a></li>
+	</ul>	
+	
+	<div id="site-name">
+		Content-based Journals & Conferences Recommender System
+	</div>
+</div>
+
+
+<div class="search-input-area">
+		<textarea rows="13" cols="120" id="abstract" name="abstract" placeholder="Please input abstract of your paper"></textarea>
+
+</div>
+
+<div style="margin-top:15px; text-align:center;">
+Get 
+<input type="radio" checked="checked" id="rank" name="rank" value="3"> Top 3 </input>
+<input type="radio" id="rank" name="rank" value="10"> Top 10 </input>
+Recommendations
+</div>
+
+<div class="search-button-area">
+		<a href="#0"  name="submit" class="search-button">Search</a>
+
+		<!-- <input class="search-button" type="button" name="submit" value="Search"> -->
+</div>
+
+
+<div class="content" style="display:none;">
+	<h3 id="abstract-title">Abstract</h3>
+	&nbsp;&nbsp;&nbsp;&nbsp;<span id="abstract-content"></span>
+	
+	<h3>Recommended Journals & Conferences</h3>
+	<ol id="conf-info">
+		
+	</ol>
+</div>
+	
+<div id="tips">
+	** Only Journals and Conferences of category A from CCF are recommended now.
+</div>
+<hr/>
+<footer>
+  <p>Site visits:<span id="visited-num"></span></p>
+  <p>Please cite our paper:Donghui Wang, Yanchun Liang, Dong Xu, Xiaoyue Feng, Renchu Guan, <br />
+“A content-based recommender system for computer science publications”, Knowledge-Based Systems, Volume 157, 2018, Pages 1-9, ISSN 0950-7051, <br />
+<a href="https://doi.org/10.1016/j.knosys.2018.05.001">https://doi.org/10.1016/j.knosys.2018.05.001</a>.</p>
+  <p>Contact information: <a href="mailto:guanrenchu@jlu.edu.cn">guanrenchu@jlu.edu.cn</a>.</p>
+</footer>
+
+
+<!-- scripts -->
+<script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.select.js"></script>
+<script type="text/javascript" src="scripts/index.js"></script>
+<script type="text/javascript" src="//ra.revolvermaps.com/0/0/6.js?i=0qahdrn7ojg&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135613362-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135613362-1');
+</script>
+
+</body>
+</html>

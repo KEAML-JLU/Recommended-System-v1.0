@@ -1,0 +1,21 @@
+<?php
+/**
+ * 获取用户信息：ID,type,name
+ * ID: 1,2,3...
+ * type: "expert"
+ * name: 张三
+ * 
+ * @return
+ * json: {"ID":1, "type":"expert", "name":"张三"}
+ * @author Donghui.Wang
+ */
+
+session_start();
+if(!isset($_SESSION["user"])){
+	echo "not logged in";
+	return;
+}
+
+echo json_encode($_SESSION["user"]);
+
+?>
