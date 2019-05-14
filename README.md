@@ -1,1 +1,1 @@
-# Recommended-System-v1.0
+# CCF期刊推荐系统v1.0
